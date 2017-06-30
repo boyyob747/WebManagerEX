@@ -1,0 +1,773 @@
+/*=========== import Font =============== */
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanslao.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700");
+
+/* ============= General CSS ================= */
+
+body {
+    font-family: 'Noto Sans Lao', Roboto, Saysettha MX, Saysettha OT, Phetsarath OT, Arial, sans-serif;
+}
+
+
+/* ========== Header ================ */
+
+.top-header {
+
+}
+
+.welcome-text {
+    padding-top: 8px;
+}
+
+.welcome-text h5 {
+    color: #7c7c7d;
+    font-size: 16px;
+}
+
+.logo-holder img {
+    width: 120px;
+    height: 110px;
+}
+
+.social-menu {
+    margin-top: 5px;
+}
+
+.social-menu li {}
+
+.social-menu li a {
+    font-size: 34px;
+    transition: all 0.2s ease-in-out;
+    color: #7c7c7d;
+    display: block;
+}
+
+.social-menu li a:hover {
+    font-size: 37px;
+    padding-top: 10px;
+}
+
+.fa-facebook-official:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    color: #bc2a8d;
+}
+
+.fa-google-plus-square:hover {
+    color: #dd4b39;
+}
+
+.fa-youtube-square:hover {
+    color: #bb0000;
+}
+
+.fa-twitter-square:hover {
+    color: #00aced;
+}
+
+
+.header-info {
+    padding-top: 20px;
+}
+
+.header-info h3 {
+    color: #38cf69;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.header-info h3 i {
+    color: #ff0000;
+}
+
+
+/* ====== Navigation Menu ========== */
+
+.navbar-header{
+  background: #0093ff;
+
+}
+
+.navbar-header button {
+  border-radius: 8px;
+  border:1px solid #fff;
+  color: #fff;
+}
+
+.navbar-header span {
+  border:1px solid #fff;
+}
+
+
+
+.mtsnav {
+    background: #0093ff;
+    border-radius: 0;
+}
+
+.mtsmenu {
+    margin: 10px 0;
+}
+.mtsmenu i {
+  font-size: 20px;
+  padding: 0 10px 0 0;
+}
+
+.mtsmenu li {}
+
+.mtsmenu li a {
+  display: block;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.mtsmenu li a:hover {
+    background: none;
+    color:#fff;
+    font-size: 20px;
+
+
+}
+
+.mtsmenu .open>a,
+.mtsmenu .open>a:hover {
+    background: #0093ff;
+    border: none;
+
+}
+
+
+
+
+/* ========== Pages ================ */
+
+.page-cover {
+    background: #f0eeee;
+}
+
+.page-header {
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.page-header h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    padding: 20px 30px 1px;
+}
+
+
+
+/*ໜ້າຂ່າວສຸຂະພາບ*/
+
+.page-cover1 {
+    background: #f0eeee;
+}
+
+
+.page-header1 {
+    margin-bottom: 20px;
+    background: #fff;
+    transition: all 0.4s ease-in-out;
+}
+
+.page-header1:hover {
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.page-header1 h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    padding: 20px 30px 20px;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.page-header1 h1:hover {
+    color:#0093ff;
+    text-decoration: underline
+
+}
+
+
+.page-content {
+    padding: 30px;
+    background: #fff;
+    margin-bottom: 50px;
+}
+
+.page-content1 {
+    padding: 30px;
+    background: #fff;
+    margin-bottom: 50px;
+    transition: all 0.5s ease-in-out;
+}
+.page-content1:hover {
+box-shadow: 4px 30px 15px rgba(0, 0, 0, 0.2);
+}
+.page-content1 h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.page-content1 p {
+    font-size: 18px;
+}
+
+
+.page-content2 {
+    padding: 30px;
+    background: #fff;
+    margin-bottom: 50px;
+    transition: all 0.5s ease-in-out;
+}
+.page-content2:hover {
+box-shadow: 4px 30px 15px rgba(0, 0, 0, 0.2);
+}
+
+.page-content2 p {
+    
+    font-size: 20px;
+    margin-top: 20px;
+   
+}
+
+.page-content2 img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.breadcrumb {
+    background: #ffffff;
+    margin: 10px 0;
+}
+
+
+.breadcrumb li a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.breadcrumb>.active {
+    font-size: 25px;
+}
+
+
+/* ========= Front Page ============ */
+
+
+/*1. News CSS Code*/
+
+.news-cover {
+    background: #fff;
+    padding: 50px 0;
+}
+
+.news-cover1 {
+    background: #fff;
+    padding: 5px 0;
+}
+
+.news-head i {
+
+  color: #0093ff;
+  font-size: 100px;
+
+}
+
+.news-box {
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 30px;
+
+}
+
+.news-box:hover {
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.news-box a img {
+    width: 100%;
+}
+
+.news-box h3 {
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+.news-box h3 a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.2s ease-in-out;
+}
+
+.news-box h3 a:hover {
+    text-decoration: none;
+    color: #0093ff;
+}
+
+.news-box p {
+    padding: 15px;
+    text-align: justify;
+}
+
+.news-box .btn {
+    margin-left: 15px;
+}
+
+
+
+
+.news-head {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.news-head h2 {
+    margin-bottom: 30px;
+    color: #0093ff;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.news-head h2 span {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.news-head h2 span:before,
+.news-head h2 span:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 9999px;
+    top: 50%;
+    border-top: 2px solid #0093ff;
+}
+
+
+.news-head h2 span:before {
+    right: 100%;
+}
+
+
+.news-head h2 span:after {
+    left: 100%;
+}
+
+
+
+/* ========= Footer ============ */
+
+.footer {
+    padding: 70px 0;
+    background: #101a26;
+    color: #fff;
+}
+
+.copy-r {}
+
+.footer-menu {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu li {
+    padding: 0;
+}
+
+.footer-menu li a {
+    transition: all .3s ease-in-out;
+    color: #fff;
+    border-right: 1px solid #fff;
+    padding: 0 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer-menu li a:hover {
+    text-decoration: none;
+    color: #0093ff;
+}
+
+.footer-menu li:last-child a {
+    border-right: none;
+}
+
+/*======== ຄົ້ນຫາ ============*/
+
+.search {
+    display: block;
+}
+
+.search img {
+    margin: 10px auto 0 auto;
+    display: block;
+    height: 200px;
+    width: 230px;
+}
+
+.search input {
+    display: inline-block;
+    margin: 50px 0 10px auto;
+    height: 50px;
+    width: 250px;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.search button {
+    background: #0094ff;
+    color: #fff;
+    font-weight: bold;
+    margin: 50px 0 10px 0;
+    float: left;
+    height: 50px;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.search button:hover {
+    background: #0073c6;
+    color: #fff;
+}
+
+
+
+/*========= Chat Room ================ */
+
+.chat-rg {
+    background: #ffffff;
+}
+
+.chat-box {
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 200px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.chat-box:hover {
+    box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chat-box i {
+    background: #0326ba;
+    color:black;
+    font-size: 100px;
+    text-align: center;
+    display: inherit;
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px 20px 0 0;
+}
+
+.chat-box h1 {
+    font-weight: bold;
+    padding-top: 20px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.chat-box :hover h1 {
+    text-decoration: underline;
+}
+
+
+.chat-box:hover i {
+    background: blue;
+    color: white;
+    border-radius: 20px 20px 0 0;
+}
+
+.chat-box .btn {
+    background: #0a74c3;
+    color: white;
+    margin-top: 100px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 25px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/*edit table*/
+
+.gr1 {
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 200px;
+    text-align: center;
+
+}
+
+.gr1:hover {
+    box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gr1 i {
+    font-size: 100px;
+    text-align: center;
+    display: inherit;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.gr1 i:hover {
+    border-radius: 20px 20px;
+}
+
+.gr1 label {
+    font-size: 30px;
+    height: 20px;
+    padding: 10px 0;
+}
+
+.gr1 select{
+    height: 40px;
+    font-size: 25px;
+    padding-bottom: 2px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    
+}
+
+.gr1:hover i {
+    background: blue;
+    color: white;
+}
+
+.gr1 .btn {
+    margin-left: 15px;
+}
+
+.gr1 input {
+    font-size: 20px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+
+
+.form-group {
+    margin: 20px 20px;
+    height: 50px;
+}
+
+.regis {
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.regis i {
+    font-size: 120px;
+}
+
+.regis h2 {
+    margin-bottom: 20px;
+    color: #0093ff;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
+.regis h2 span {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.regis h2 span:before,
+.regis h2 span:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 9999px;
+    top: 50%;
+    border-top: 2px solid #0093ff;
+}
+
+.regis h2 span:before {
+    right: 100%;
+}
+
+.regis h2 span:after {
+    left: 100%;
+}
+
+.chat-box label {
+    font-size: 20px;
+}
+
+.checkbox1 input {
+    margin: 15px 0;
+}
+
+.sum1 {}
+
+.sum1 button {
+    margin: 0;
+    padding: 20px 50px;
+    font-weight: bold;
+}
+
+.sum1 button:hover {
+    background: #0093ff;
+    color: white;
+}
+
+.form-group1 {
+    margin: 4px 20px;
+    height: 80px;
+}
+
+.form-group1 label {
+    margin: 20px 0;
+}
+
+.form-group1 input {
+    margin-top: -10px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.form-group1 button {
+    margin-top: 20px;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+.form-group1 button:hover {
+    background: #0093ff;
+    color: white;
+}
+
+.form-group2 {
+    margin: 20px 20px;
+    height: 200px;
+}
+
+.form-group2 select {
+    margin: 3px;
+    height: 50px;
+    font-size: 20px
+}
+
+.sum2 button {
+    margin: 8px 0;
+    padding: 5px 50px;
+    font-weight: bold;
+    height: 55px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.sum2 button:hover {
+    background: #0093ff;
+    color: white;
+}
+
+.addtable tr th {
+    font-size: 20px;
+}
+
+/*ປຸ້ມເພີ້ມ*/
+
+.btn-group button {
+    background: #0093ff;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-group :hover button{
+    background: #1c71e5;
+    color: white;
+    box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px 20px 20px 20px;
+
+
+}
+
+.addtable thead > tr > th {
+    border: none;
+    background: #0093ff;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.addtable thead > tr > th:hover {
+    background: #006dbe;
+    color: #fff;
+    text-align: center;
+
+}
+
+
+
+.addtable tbody > tr > td {
+   text-align: center;
+   font-size: 17px;
+   border: none;
+
+}
+
+.addtable tbody > tr > td:hover {
+    background: #f0f0f0;
+
+}
+
+
+.addtable tbody > tr > td > a {
+    padding: 2px 15px;
+    border: 2px ;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+/* ========= Wordpress Core CSS ============ */
